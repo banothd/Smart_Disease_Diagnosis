@@ -4,3 +4,4 @@ streamlit_option_menu
 numpy
 pandas
 scikit-learn
+user_auth
