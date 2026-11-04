@@ -8,7 +8,7 @@ import pandas as pd
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_DIR = BASE_DIR / "Models"
+MODEL_DIR = BASE_DIR
 
 # Set page title and icon
 st.set_page_config(
