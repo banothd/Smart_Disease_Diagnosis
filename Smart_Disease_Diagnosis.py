@@ -5,6 +5,10 @@ import numpy as np
 from user_auth import user_authentication
 import pandas as pd
 
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_DIR = BASE_DIR / "Models"
 
 # ✅ Set page title and icon
 st.set_page_config(page_title="Smart Disease Diagnosis", page_icon="⚕️", layout="wide")
